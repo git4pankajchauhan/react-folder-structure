@@ -7,10 +7,14 @@
 
 # testing
 /coverage
-
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
 # production
 /build
 
+*
 # misc
 .DS_Store
 .env.local
